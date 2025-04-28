@@ -241,6 +241,14 @@
           alert("Thank you for your message! We’ll get back to you soon.");
           this.reset();
         });
+      
+  const menuToggle = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+
+
     </script>
   </body>
 </html>
